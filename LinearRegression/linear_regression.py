@@ -1,6 +1,6 @@
 # =================================
 # File : linear_regression.py
-# Description : 1.线性回归联系 数据集来源kaggle:Linear Regression
+# Description : 1.线性回归 数据集取自kaggle:Linear Regression
 # Author : lbc
 # CREATE TIME : 2023/4/5 21:10
 # ================================
