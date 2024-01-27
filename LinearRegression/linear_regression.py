@@ -51,19 +51,19 @@ Y = torch.from_numpy(Y).type(torch.FloatTensor)
 """
 创建模型
 """
-class LRModel(nn.Module):
+class Model(nn.Module):
     def __init__(self):
-        super(LRModel,self).__init__()
+        super(Model,self).__init__()
         self.linear = nn.Linear(in_features=1,out_features=1)
 
     def forward(self,inputs):
-        logits = self.linear(inputs)
-        return logits
+        x = self.linear(inputs)
+        return x
 
 """
 实例化模型
 """
-model = LRModel()
+model = Model()
 #print(model)
 
 """
@@ -74,7 +74,7 @@ loss_fun = nn.MSELoss()
 """
 优化函数:随机梯度下降 输入: 模型参数 学习速率
 """
-optimizer = torch.optim.SGD(model.parameters(),lr=0.0001)
+optimizer = torch.optim.SGD(model.parameters(),lr=0.0000001)
 
 """
 训练
@@ -99,9 +99,10 @@ print(list(model.parameters()))
 """
 绘图查看结果
 """
-plt.scatter(data.x,data.y)
-plt.xlabel("x")
-plt.ylabel("y")
+
+#plt.scatter(data.x,data.y)
+# plt.xlabel("x")
+# plt.ylabel("y")
 
 plt.plot(X,model(X).detach().numpy(),c='r')#截断梯度，只获取值
 plt.show()
