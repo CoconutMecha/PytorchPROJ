@@ -1,13 +1,14 @@
-/BinaryClassification/data
-/kaggle/Spaceship Titanic/data
-/kaggle/Spaceship Titanic/submission
+/BinaryClassification/data/
+/kaggle/Spaceship Titanic/data/
+/kaggle/Spaceship Titanic/submission/
 /least_square _method/housing.csv
-/LinearRegression/lr_data
-/Multi-classification/data
-/Multi-classification/FashionMNIST
+/LinearRegression/lr_data/
+/Multi-classification/data/
+/Multi-classification/FashionMNIST/
 /Multi-layer-perceptron/HR-Employee-Attrition.csv
-/nlp/bert_classify/data
-/nlp/bert_classify/model
-/nlp/bert_classify/bert-base-chinese
-/seq2seq_chat/data
-/seq2seq_chat/model
+/nlp/bert_classify/data/
+/nlp/bert_classify/model/
+/nlp/bert_classify/bert-base-chinese/
+/seq2seq_chat/data/
+/seq2seq_chat/model/
+.gitignore
