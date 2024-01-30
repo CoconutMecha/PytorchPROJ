@@ -1,6 +1,6 @@
 一些算法的复现<br>
 BinaryClassification 二分类<br>
-clustering k-means聚类/n
+clustering k-means聚类<br>
 DataStructures 常用数据结构python实现<br>
 Kaggle kaggle竞赛（多层感知机版本）<br>
 least_square _method 最小二乘法<br>
